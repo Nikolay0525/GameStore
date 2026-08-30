@@ -1,0 +1,32 @@
+GET http://localhost:5113/games
+
+###
+GET http://localhost:5113/games/1
+
+###
+
+POST http://localhost:5113/games
+Content-Type: application/json
+
+{
+    "name": "",
+    "genre": "IDK",
+    "price": 5.99,
+    "releaseDate": "2026-08-29"
+}
+
+###
+
+PUT http://localhost:5113/games/1
+Content-Type: application/json
+
+{
+    "name": "Skibidi",
+    "genre": "Fighting",
+    "price": 19.99,
+    "releaseDate": "1922-07-15"
+}
+
+###
+
+DELETE  http://localhost:5113/games/5

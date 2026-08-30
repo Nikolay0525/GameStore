@@ -1,7 +1,6 @@
 using System;
-using GameStore.Api.Models;
 
-namespace GameStore.Api;
+namespace GameStore.Api.Models;
 
 public class Game
 {
